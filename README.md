@@ -12,6 +12,10 @@ Run `dojo build -w` to create a development build and start a development server
 
 If port `9999` is already in use, the next available port in the `9990:9999` range (working backwards) will be used. The selected port is output to the console at the start of the `dojo build -w` process. The app will automatically reload if you change any of the source files.
 
+## Build Custom Web Component
+
+`dojo build --element=src/createTwitterShareElement.ts`
+
 ## Running unit tests
 
 Run `dojo test` to run the projects unit tests. These tests are located in the `tests/unit` directory.
